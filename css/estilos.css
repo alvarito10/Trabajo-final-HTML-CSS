@@ -1,0 +1,244 @@
+/*-*-*-*-*-*-*-*- ESTILOS GENERALES -*-*-*-*-*-*-*-*/
+/*tipo de letra Poppins*/
+@font-face{
+    font-family: "Poppins";
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+} 
+/*color de fondo y de letra*/
+body{
+    background-color: rgb(35, 45, 75); 
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+} 
+/*color de fondo de nav*/
+nav{
+    background-color: rgb(240, 70, 65);
+} 
+/*estilos del índice*/
+#indice, .lista1, .menu{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*pseudoenlace para que al pasar el ratón, cambie el estilo del enlace*/
+.menu:hover{
+    color: rgb(35, 45, 75); 
+    font-weight: bold;
+}
+/*color y grosor de letra*/
+h1, h2{
+    color: #00aa9b;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*color de fondo del pie de página*/
+footer{
+    background-color: rgb(0, 85, 115);
+}
+/*estilos de posición de H1*/
+h1{
+    margin-left: 100px;
+}
+/*-*-*-*-*-*-*-*- ESTILOS ENLACE INCIO-*-*-*-*-*-*-*-*-*-*-/
+/*estilos de posición de h2 quienes somos*/
+#somos{
+    margin-left: 100px;
+}
+/*estilos caja1*/
+#caja1{
+    display: inline-block;
+    width: 500px;
+    margin-left: 100px;
+}
+/*estilos de img1*/
+#img1{
+    margin-left: 100px;
+    width: 500px;
+    height: 350px;
+}
+/*estilos de h2 Nuestros valores*/
+#valores{
+    margin-left: 700px;
+}
+/*estilos de caja2*/
+#caja2{
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 700px;  
+}
+/*estilos de img2*/
+#img2{
+    position: relative;
+    right: 400px;
+    width: 500px;
+    height: 350px;
+}
+/*estilos de span*/
+span{
+    font-weight: bold;
+    font-size: large;
+}
+/*estilos de h2 sectores*/
+#sectores{
+    margin-left: 100px;
+}
+/*estilos caja de telecomunicaciones*/
+#teleco{
+    border: 1px hidden;
+    background-color: rgb(0, 85, 115);
+    width: 240px;
+    height: 240px; 
+    text-align: center;
+    display: inline-block;
+    margin-left: 150px;
+}
+/*estilos caja de seguros*/
+#seguro{
+    border: 1px hidden;
+    background-color: rgb(0, 85, 115);
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 150px;
+    position: relative;
+    top: 25px;
+}
+/*estilos caja de banca*/
+#banca{
+    border: 1px hidden;
+    background-color: rgb(0, 85, 115);
+    width: 240px;
+    height: 240px; 
+    text-align: center;
+    display: inline-block;
+    margin-left: 150px;  
+}
+/*estilos caja de sanidad*/
+#sanidad{
+    border: 1px hidden;
+    background-color: rgb(0, 85, 115);
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 150px;
+}
+/*estilos caja de sector público*/
+#sector{
+    border: 1px hidden;
+    background-color: rgb(0, 85, 115);
+    width: 240px;
+    height: 240px; 
+    text-align: center;
+    display: inline-block;
+    margin-left: 150px;
+    position: relative;
+    top: 45px;
+}
+/*estilos caja de industria*/
+#industria{
+    border: 1px hidden;
+    background-color: rgb(0, 85, 115);
+    width: 240px;
+    height: 240px; 
+    text-align: center;
+    display: inline-block;
+    margin-left: 150px;
+    position: relative;
+    bottom: 30px;
+}
+/*estilos h2 nuestros clientes*/
+#clientes{
+    margin-left: 100px;
+}
+/*estilos caja3*/
+#caja3{
+    text-align: center;
+}
+/*estilos imágenes clientes2*/
+.clientes2{
+    width: 150px;
+    height: 100px;
+}
+/*estilos caja4*/
+#caja4{
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+/*-*-*-*-*-*-*-*-*-*- ESTILOS ENLACE GALERÍA -*-*-*-*-*-*-*-*-*/
+/*estilos caja servicio*/
+#caja5{
+    text-align: center;
+}
+/*todas las imágnes con misma altura y anchura*/
+.services{
+    width: 250px;
+    height: 250px;
+}
+/*-*-*-*-*-*-*-*-*-*- ESTILOS ENLACE PRESUPUESTOS -*-*-*-*-*-*-*-*-*/
+/*estilos al la caja formulario*/
+.formulario{
+    border: 1px hidden;
+    background-color: rgb(0, 85, 115);
+    width: 500px;
+    height: 570px;
+    margin-left: 400px;
+}
+/*estilos al formulario*/
+.form1{
+    list-style-type: none;
+    margin-left: 40px;
+}
+.form1, .lista2{
+    margin-bottom: 20px;
+}
+.form1, .lista2, label{
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*estilos a los input sin contar con el checkbox*/
+input:not([type='checkbox']){
+    float: right;
+    margin-right: 40px;
+    width: 250px;
+}
+/*estilo al textare*/
+textarea{
+    width: 385px;
+    margin-top: 10px;
+}
+/*estilos a los botones*/
+#botones{
+    margin-left: 90px;
+}
+button{
+    background-color: rgb(240, 70, 65) ;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(35, 45, 75); 
+    font-weight: bold;
+}
+/*-*-*-*-*-*-*-*-*-*- ESTILOS ENLACE CONTACTO -*-*-*-*-*-*-*-*-*/
+.ubicacion{
+    display: inline-block;
+    margin-left: 100px;
+}
+
